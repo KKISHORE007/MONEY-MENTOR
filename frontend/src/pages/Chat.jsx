@@ -57,7 +57,7 @@ const Chat = () => {
       });
       
       const data = await response.json();
-      setMessages(prev => [...prev, { text: data.text, sender: 'bot' }]);
+      setMessages(prev => [...prev, { text: data.text || "I'm sorry, I couldn't process that.", sender: 'bot' }]);
     } catch (error) {
       setMessages(prev => [...prev, { text: "Sorry, I'm having trouble connecting right now.", sender: 'bot' }]);
     } finally {
