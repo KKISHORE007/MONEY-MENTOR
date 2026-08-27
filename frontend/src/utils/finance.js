@@ -36,3 +36,5 @@ export const calculateHealthScore = (data) => {
     emergencyFundRatio: targetFund > 0 ? (current_savings / targetFund) * 100 : 100
   };
 };
+
+// minor safe update 25
