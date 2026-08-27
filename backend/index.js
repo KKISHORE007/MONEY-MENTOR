@@ -278,3 +278,5 @@ app.listen(PORT, async () => {
     console.error('Ensure MySQL is running and database "Money_mentor" exists.');
   }
 });
+
+// minor safe update 2
