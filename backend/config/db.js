@@ -20,3 +20,5 @@ const poolConfig = {
 const pool = mysql.createPool(poolConfig);
 
 module.exports = pool;
+
+// minor safe update 8
