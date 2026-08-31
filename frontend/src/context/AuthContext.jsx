@@ -59,3 +59,5 @@ export const AuthProvider = ({ children }) => {
 };
 
 // minor safe update 13
+
+// automated formatting update 13
