@@ -171,3 +171,5 @@ const TaxCalculator = () => {
 export default TaxCalculator;
 
 // minor safe update 24
+
+// automated formatting update 24
